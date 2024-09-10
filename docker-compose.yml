@@ -1,7 +1,9 @@
 services:
 
   minimal-notebook:
-    image: quay.io/jupyter/minimal-notebook:2024-09-02
+    build: 
+      dockerfile: ./dockerfiles/Dockerfile
+    container_name: llamaindex
     ports:
       - 8888:8888
     volumes:
