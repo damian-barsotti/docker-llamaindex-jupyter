@@ -1,0 +1,4 @@
+/postgres_data
+/.env
+/work/*
+!/work/rag-from-scratch.ipynb
